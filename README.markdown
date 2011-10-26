@@ -16,10 +16,10 @@ I created these two classes recently to enable myself to easily and efficiently 
 **How to use**  
 First, download the code, and include it in your source.
 
-Import the class:
+Import the class:  
      #import "URLImageCached.h"
      
-Now, start loading images
+Now, start loading images:  
     -(void)loadImage {
 	    BOOL loading = [URLImageCached loadImageWithURL:@"http://imageurl.png" 
 	    					   withLoadCompleteHandler:^void(UIImage *loadedImage, NSString *url) {
@@ -28,7 +28,7 @@ Now, start loading images
 	    if(!loading) { NSLog(@"You'll need internet for this."); }
     }
     
-It's just as easy to include a progress indicator:
+It's just as easy to include a progress indicator:  
     -(void)loadImageWithProgress {
 		BOOL loading = [URLImageCached loadImageWithURL:@"http://imageurl.png" 
 		                       withLoadProgressHandler:^void(float progress, NSString *url) {
