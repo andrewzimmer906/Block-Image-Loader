@@ -15,22 +15,31 @@
 		89C7FCA31458929E00E0E32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCA21458929E00E0E32B /* AppDelegate.m */; };
 		89C7FCA61458929E00E0E32B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCA51458929E00E0E32B /* ViewController.m */; };
 		89C7FCA91458929E00E0E32B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCA71458929E00E0E32B /* ViewController.xib */; };
+		89C7FCB5145892D600E0E32B /* URLImageCached.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCB1145892D600E0E32B /* URLImageCached.m */; };
+		89C7FCB6145892D600E0E32B /* URLImageLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCB3145892D600E0E32B /* URLImageLoadOperation.m */; };
+		89C7FCC0145895CF00E0E32B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7FCBF145895CF00E0E32B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockUIImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C7FC8E1458929E00E0E32B /* BlockImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C7FC921458929E00E0E32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		89C7FC941458929E00E0E32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89C7FC961458929E00E0E32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		89C7FC9A1458929E00E0E32B /* BlockUIImageLoader-Info.plist */ = {isa = PBXFileReference; path = "BlockUIImageLoader-Info.plist"; sourceTree = "<group>"; };
+		89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */ = {isa = PBXFileReference; path = "BlockImageLoader-Info.plist"; sourceTree = "<group>"; };
 		89C7FC9C1458929E00E0E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89C7FC9E1458929E00E0E32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89C7FCA01458929E00E0E32B /* BlockUIImageLoader-Prefix.pch */ = {isa = PBXFileReference; path = "BlockUIImageLoader-Prefix.pch"; sourceTree = "<group>"; };
-		89C7FCA11458929E00E0E32B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		89C7FCA01458929E00E0E32B /* BlockImageLoader-Prefix.pch */ = {isa = PBXFileReference; path = "BlockImageLoader-Prefix.pch"; sourceTree = "<group>"; };
+		89C7FCA11458929E00E0E32B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89C7FCA21458929E00E0E32B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89C7FCA41458929E00E0E32B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		89C7FCA41458929E00E0E32B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89C7FCA51458929E00E0E32B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89C7FCA81458929E00E0E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		89C7FCB0145892D600E0E32B /* URLImageCached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageCached.h; sourceTree = "<group>"; };
+		89C7FCB1145892D600E0E32B /* URLImageCached.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageCached.m; sourceTree = "<group>"; };
+		89C7FCB2145892D600E0E32B /* URLImageLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageLoadOperation.h; sourceTree = "<group>"; };
+		89C7FCB3145892D600E0E32B /* URLImageLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageLoadOperation.m; sourceTree = "<group>"; };
+		89C7FCB4145892D600E0E32B /* URLImageCacheConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageCacheConstants.h; sourceTree = "<group>"; };
+		89C7FCBF145895CF00E0E32B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C7FCC0145895CF00E0E32B /* SystemConfiguration.framework in Frameworks */,
 				89C7FC931458929E00E0E32B /* UIKit.framework in Frameworks */,
 				89C7FC951458929E00E0E32B /* Foundation.framework in Frameworks */,
 				89C7FC971458929E00E0E32B /* CoreGraphics.framework in Frameworks */,
@@ -50,7 +60,7 @@
 		89C7FC831458929E00E0E32B = {
 			isa = PBXGroup;
 			children = (
-				89C7FC981458929E00E0E32B /* BlockUIImageLoader */,
+				89C7FC981458929E00E0E32B /* BlockImageLoader */,
 				89C7FC911458929E00E0E32B /* Frameworks */,
 				89C7FC8F1458929E00E0E32B /* Products */,
 			);
@@ -59,7 +69,7 @@
 		89C7FC8F1458929E00E0E32B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */,
+				89C7FC8E1458929E00E0E32B /* BlockImageLoader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +77,7 @@
 		89C7FC911458929E00E0E32B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89C7FCBF145895CF00E0E32B /* SystemConfiguration.framework */,
 				89C7FC921458929E00E0E32B /* UIKit.framework */,
 				89C7FC941458929E00E0E32B /* Foundation.framework */,
 				89C7FC961458929E00E0E32B /* CoreGraphics.framework */,
@@ -74,36 +85,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		89C7FC981458929E00E0E32B /* BlockUIImageLoader */ = {
+		89C7FC981458929E00E0E32B /* BlockImageLoader */ = {
 			isa = PBXGroup;
 			children = (
-				89C7FCA11458929E00E0E32B /* AppDelegate.h */,
-				89C7FCA21458929E00E0E32B /* AppDelegate.m */,
-				89C7FCA41458929E00E0E32B /* ViewController.h */,
-				89C7FCA51458929E00E0E32B /* ViewController.m */,
-				89C7FCA71458929E00E0E32B /* ViewController.xib */,
+				89C7FCBA1458930200E0E32B /* AppDelegate */,
+				89C7FCB9145892F300E0E32B /* ViewController */,
+				89C7FCB7145892D900E0E32B /* Utilities */,
 				89C7FC991458929E00E0E32B /* Supporting Files */,
 			);
+			name = BlockImageLoader;
 			path = BlockUIImageLoader;
 			sourceTree = "<group>";
 		};
 		89C7FC991458929E00E0E32B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				89C7FC9A1458929E00E0E32B /* BlockUIImageLoader-Info.plist */,
+				89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */,
 				89C7FC9B1458929E00E0E32B /* InfoPlist.strings */,
 				89C7FC9E1458929E00E0E32B /* main.m */,
-				89C7FCA01458929E00E0E32B /* BlockUIImageLoader-Prefix.pch */,
+				89C7FCA01458929E00E0E32B /* BlockImageLoader-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89C7FCB7145892D900E0E32B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCB8145892E300E0E32B /* URLImageCached */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		89C7FCB8145892E300E0E32B /* URLImageCached */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCB4145892D600E0E32B /* URLImageCacheConstants.h */,
+				89C7FCB0145892D600E0E32B /* URLImageCached.h */,
+				89C7FCB1145892D600E0E32B /* URLImageCached.m */,
+				89C7FCB2145892D600E0E32B /* URLImageLoadOperation.h */,
+				89C7FCB3145892D600E0E32B /* URLImageLoadOperation.m */,
+			);
+			name = URLImageCached;
+			sourceTree = "<group>";
+		};
+		89C7FCB9145892F300E0E32B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCA41458929E00E0E32B /* ViewController.h */,
+				89C7FCA51458929E00E0E32B /* ViewController.m */,
+				89C7FCA71458929E00E0E32B /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		89C7FCBA1458930200E0E32B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCA11458929E00E0E32B /* AppDelegate.h */,
+				89C7FCA21458929E00E0E32B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89C7FC8D1458929E00E0E32B /* BlockUIImageLoader */ = {
+		89C7FC8D1458929E00E0E32B /* BlockImageLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockUIImageLoader" */;
+			buildConfigurationList = 89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockImageLoader" */;
 			buildPhases = (
 				89C7FC8A1458929E00E0E32B /* Sources */,
 				89C7FC8B1458929E00E0E32B /* Frameworks */,
@@ -113,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = BlockUIImageLoader;
+			name = BlockImageLoader;
 			productName = BlockUIImageLoader;
-			productReference = 89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */;
+			productReference = 89C7FC8E1458929E00E0E32B /* BlockImageLoader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +176,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Modea;
 			};
-			buildConfigurationList = 89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockUIImageLoader" */;
+			buildConfigurationList = 89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockImageLoader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89C7FC8D1458929E00E0E32B /* BlockUIImageLoader */,
+				89C7FC8D1458929E00E0E32B /* BlockImageLoader */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +213,8 @@
 				89C7FC9F1458929E00E0E32B /* main.m in Sources */,
 				89C7FCA31458929E00E0E32B /* AppDelegate.m in Sources */,
 				89C7FCA61458929E00E0E32B /* ViewController.m in Sources */,
+				89C7FCB5145892D600E0E32B /* URLImageCached.m in Sources */,
+				89C7FCB6145892D600E0E32B /* URLImageLoadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,9 +287,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockUIImageLoader-Prefix.pch";
-				INFOPLIST_FILE = "BlockUIImageLoader/BlockUIImageLoader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "BlockUIImageLoader/BlockImageLoader-Info.plist";
+				PRODUCT_NAME = BlockImageLoader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,9 +298,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockUIImageLoader-Prefix.pch";
-				INFOPLIST_FILE = "BlockUIImageLoader/BlockUIImageLoader-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "BlockUIImageLoader/BlockImageLoader-Info.plist";
+				PRODUCT_NAME = BlockImageLoader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -257,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockUIImageLoader" */ = {
+		89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockImageLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C7FCAA1458929E00E0E32B /* Debug */,
@@ -266,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockUIImageLoader" */ = {
+		89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockImageLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C7FCAD1458929E00E0E32B /* Debug */,

@@ -8,8 +8,6 @@
 
 #import "URLImageLoadOperation.h"
 
-
-
 @implementation URLImageLoadOperation
 
 // method to return a static cache reference (ie, no need for an init method)
@@ -30,14 +28,25 @@
     [super dealloc];
 }
 
--(void)loadImageWithURL:(NSString*)url withLoadCompleteHandler:(URLImageLoadCompleteHandler)handler {
+#pragma mark - Public Methods
+-(void)loadImageWithURL:(NSString*)url withLoadProgressHandler:(URLImageLoadProgressHandler)progressHandler withLoadCompleteHandler:(URLImageLoadCompleteHandler)completeHandler {
     UIImage *curImage = [[self cache] objectForKey:url];
     
     if(curImage != nil) {
-        handler(curImage, url);
+        if(progressHandler != nil) {
+            progressHandler(1, url);
+        }
+        completeHandler(curImage, url);
     } else {
-        loadCompleteHandler = [handler copy];
+        loadCompleteHandler = [completeHandler copy];
+        loadProgressHandler = [progressHandler copy];
+        if(loadProgressHandler)  {
+            loadProgressHandler(0.0f, url);
+        }
+        
         loadUrl = [[NSString alloc] initWithString:url];
+        expectedContentLength = NSURLResponseUnknownLength;
+        
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:5.0];
         NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
         if(connection) {
@@ -49,10 +58,14 @@
 #pragma mark NSURLConnection Delegate Methods
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     [receivedData setLength:0];
+    expectedContentLength = [response expectedContentLength];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
     [receivedData appendData:data];
+    if(expectedContentLength != NSURLResponseUnknownLength && loadProgressHandler != nil) {
+        loadProgressHandler((float)[receivedData length] / (float)expectedContentLength, loadUrl);
+    }
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -63,9 +76,14 @@
     
     [[self cache] setValue:downloadedImage forKey:loadUrl];
     
+    if(loadProgressHandler != nil) {
+        loadProgressHandler(1, loadUrl);
+    }
+    
     loadCompleteHandler(downloadedImage, loadUrl);
     [receivedData release];
     [connection release];
+    [loadUrl release];
 }
 
 @end
