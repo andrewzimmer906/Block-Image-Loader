@@ -3,7 +3,6 @@ Block Image Loader
 
 Load a UIImage from a remote URL location in just a few lines of code.
 EXTRA BONUS: We are using blocks for our handlers!
-----------------------------------------------------------------------
 
 I created these two classes recently to enable myself to easily and efficiently load UIImage's from a remote URL asynchronously.
 	I set up blocks to manage the handlers, oh yeah! 
