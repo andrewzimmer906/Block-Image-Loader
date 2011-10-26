@@ -18,6 +18,13 @@
 		89C7FCB5145892D600E0E32B /* URLImageCached.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCB1145892D600E0E32B /* URLImageCached.m */; };
 		89C7FCB6145892D600E0E32B /* URLImageLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCB3145892D600E0E32B /* URLImageLoadOperation.m */; };
 		89C7FCC0145895CF00E0E32B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7FCBF145895CF00E0E32B /* SystemConfiguration.framework */; };
+		89C7FCCD1458AB9E00E0E32B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCC61458AB9E00E0E32B /* iTunesArtwork */; };
+		89C7FCCE1458AB9E00E0E32B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCC71458AB9E00E0E32B /* Icon-72.png */; };
+		89C7FCCF1458AB9E00E0E32B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCC81458AB9E00E0E32B /* Icon-Small-50.png */; };
+		89C7FCD01458AB9E00E0E32B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCC91458AB9E00E0E32B /* Icon-Small.png */; };
+		89C7FCD11458AB9E00E0E32B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCCA1458AB9E00E0E32B /* Icon-Small@2x.png */; };
+		89C7FCD21458AB9F00E0E32B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCCB1458AB9E00E0E32B /* Icon.png */; };
+		89C7FCD31458AB9F00E0E32B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCCC1458AB9E00E0E32B /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +32,10 @@
 		89C7FC921458929E00E0E32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		89C7FC941458929E00E0E32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89C7FC961458929E00E0E32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */ = {isa = PBXFileReference; path = "BlockImageLoader-Info.plist"; sourceTree = "<group>"; };
+		89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BlockImageLoader-Info.plist"; path = "BlockUIImageLoader/BlockImageLoader-Info.plist"; sourceTree = "<group>"; };
 		89C7FC9C1458929E00E0E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89C7FC9E1458929E00E0E32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89C7FCA01458929E00E0E32B /* BlockImageLoader-Prefix.pch */ = {isa = PBXFileReference; path = "BlockImageLoader-Prefix.pch"; sourceTree = "<group>"; };
+		89C7FCA01458929E00E0E32B /* BlockImageLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockImageLoader-Prefix.pch"; sourceTree = "<group>"; };
 		89C7FCA11458929E00E0E32B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89C7FCA21458929E00E0E32B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		89C7FCA41458929E00E0E32B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 		89C7FCB3145892D600E0E32B /* URLImageLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageLoadOperation.m; sourceTree = "<group>"; };
 		89C7FCB4145892D600E0E32B /* URLImageCacheConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageCacheConstants.h; sourceTree = "<group>"; };
 		89C7FCBF145895CF00E0E32B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89C7FCC61458AB9E00E0E32B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		89C7FCC71458AB9E00E0E32B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		89C7FCC81458AB9E00E0E32B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		89C7FCC91458AB9E00E0E32B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		89C7FCCA1458AB9E00E0E32B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		89C7FCCB1458AB9E00E0E32B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		89C7FCCC1458AB9E00E0E32B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				89C7FC981458929E00E0E32B /* BlockImageLoader */,
+				89C7FCD41458ABB900E0E32B /* Resources */,
 				89C7FC911458929E00E0E32B /* Frameworks */,
 				89C7FC8F1458929E00E0E32B /* Products */,
 			);
@@ -100,8 +115,6 @@
 		89C7FC991458929E00E0E32B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */,
-				89C7FC9B1458929E00E0E32B /* InfoPlist.strings */,
 				89C7FC9E1458929E00E0E32B /* main.m */,
 				89C7FCA01458929E00E0E32B /* BlockImageLoader-Prefix.pch */,
 			);
@@ -145,6 +158,31 @@
 				89C7FCA21458929E00E0E32B /* AppDelegate.m */,
 			);
 			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		89C7FCC51458AB8B00E0E32B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCC61458AB9E00E0E32B /* iTunesArtwork */,
+				89C7FCC71458AB9E00E0E32B /* Icon-72.png */,
+				89C7FCC81458AB9E00E0E32B /* Icon-Small-50.png */,
+				89C7FCC91458AB9E00E0E32B /* Icon-Small.png */,
+				89C7FCCA1458AB9E00E0E32B /* Icon-Small@2x.png */,
+				89C7FCCB1458AB9E00E0E32B /* Icon.png */,
+				89C7FCCC1458AB9E00E0E32B /* Icon@2x.png */,
+			);
+			name = Images;
+			path = BlockUIImageLoader;
+			sourceTree = "<group>";
+		};
+		89C7FCD41458ABB900E0E32B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FC9A1458929E00E0E32B /* BlockImageLoader-Info.plist */,
+				89C7FC9B1458929E00E0E32B /* InfoPlist.strings */,
+				89C7FCC51458AB8B00E0E32B /* Images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +238,13 @@
 			files = (
 				89C7FC9D1458929E00E0E32B /* InfoPlist.strings in Resources */,
 				89C7FCA91458929E00E0E32B /* ViewController.xib in Resources */,
+				89C7FCCD1458AB9E00E0E32B /* iTunesArtwork in Resources */,
+				89C7FCCE1458AB9E00E0E32B /* Icon-72.png in Resources */,
+				89C7FCCF1458AB9E00E0E32B /* Icon-Small-50.png in Resources */,
+				89C7FCD01458AB9E00E0E32B /* Icon-Small.png in Resources */,
+				89C7FCD11458AB9E00E0E32B /* Icon-Small@2x.png in Resources */,
+				89C7FCD21458AB9F00E0E32B /* Icon.png in Resources */,
+				89C7FCD31458AB9F00E0E32B /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +272,7 @@
 				89C7FC9C1458929E00E0E32B /* en */,
 			);
 			name = InfoPlist.strings;
+			path = BlockUIImageLoader;
 			sourceTree = "<group>";
 		};
 		89C7FCA71458929E00E0E32B /* ViewController.xib */ = {
