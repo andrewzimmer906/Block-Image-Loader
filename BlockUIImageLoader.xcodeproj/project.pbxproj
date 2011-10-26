@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89C7FC931458929E00E0E32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7FC921458929E00E0E32B /* UIKit.framework */; };
+		89C7FC951458929E00E0E32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7FC941458929E00E0E32B /* Foundation.framework */; };
+		89C7FC971458929E00E0E32B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7FC961458929E00E0E32B /* CoreGraphics.framework */; };
+		89C7FC9D1458929E00E0E32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FC9B1458929E00E0E32B /* InfoPlist.strings */; };
+		89C7FC9F1458929E00E0E32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FC9E1458929E00E0E32B /* main.m */; };
+		89C7FCA31458929E00E0E32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCA21458929E00E0E32B /* AppDelegate.m */; };
+		89C7FCA61458929E00E0E32B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7FCA51458929E00E0E32B /* ViewController.m */; };
+		89C7FCA91458929E00E0E32B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C7FCA71458929E00E0E32B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockUIImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C7FC921458929E00E0E32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89C7FC941458929E00E0E32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89C7FC961458929E00E0E32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89C7FC9A1458929E00E0E32B /* BlockUIImageLoader-Info.plist */ = {isa = PBXFileReference; path = "BlockUIImageLoader-Info.plist"; sourceTree = "<group>"; };
+		89C7FC9C1458929E00E0E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89C7FC9E1458929E00E0E32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89C7FCA01458929E00E0E32B /* BlockUIImageLoader-Prefix.pch */ = {isa = PBXFileReference; path = "BlockUIImageLoader-Prefix.pch"; sourceTree = "<group>"; };
+		89C7FCA11458929E00E0E32B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		89C7FCA21458929E00E0E32B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89C7FCA41458929E00E0E32B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		89C7FCA51458929E00E0E32B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89C7FCA81458929E00E0E32B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C7FC8B1458929E00E0E32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C7FC931458929E00E0E32B /* UIKit.framework in Frameworks */,
+				89C7FC951458929E00E0E32B /* Foundation.framework in Frameworks */,
+				89C7FC971458929E00E0E32B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89C7FC831458929E00E0E32B = {
+			isa = PBXGroup;
+			children = (
+				89C7FC981458929E00E0E32B /* BlockUIImageLoader */,
+				89C7FC911458929E00E0E32B /* Frameworks */,
+				89C7FC8F1458929E00E0E32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89C7FC8F1458929E00E0E32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C7FC911458929E00E0E32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FC921458929E00E0E32B /* UIKit.framework */,
+				89C7FC941458929E00E0E32B /* Foundation.framework */,
+				89C7FC961458929E00E0E32B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89C7FC981458929E00E0E32B /* BlockUIImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FCA11458929E00E0E32B /* AppDelegate.h */,
+				89C7FCA21458929E00E0E32B /* AppDelegate.m */,
+				89C7FCA41458929E00E0E32B /* ViewController.h */,
+				89C7FCA51458929E00E0E32B /* ViewController.m */,
+				89C7FCA71458929E00E0E32B /* ViewController.xib */,
+				89C7FC991458929E00E0E32B /* Supporting Files */,
+			);
+			path = BlockUIImageLoader;
+			sourceTree = "<group>";
+		};
+		89C7FC991458929E00E0E32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89C7FC9A1458929E00E0E32B /* BlockUIImageLoader-Info.plist */,
+				89C7FC9B1458929E00E0E32B /* InfoPlist.strings */,
+				89C7FC9E1458929E00E0E32B /* main.m */,
+				89C7FCA01458929E00E0E32B /* BlockUIImageLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C7FC8D1458929E00E0E32B /* BlockUIImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockUIImageLoader" */;
+			buildPhases = (
+				89C7FC8A1458929E00E0E32B /* Sources */,
+				89C7FC8B1458929E00E0E32B /* Frameworks */,
+				89C7FC8C1458929E00E0E32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockUIImageLoader;
+			productName = BlockUIImageLoader;
+			productReference = 89C7FC8E1458929E00E0E32B /* BlockUIImageLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C7FC851458929E00E0E32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Modea;
+			};
+			buildConfigurationList = 89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockUIImageLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89C7FC831458929E00E0E32B;
+			productRefGroup = 89C7FC8F1458929E00E0E32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C7FC8D1458929E00E0E32B /* BlockUIImageLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C7FC8C1458929E00E0E32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C7FC9D1458929E00E0E32B /* InfoPlist.strings in Resources */,
+				89C7FCA91458929E00E0E32B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C7FC8A1458929E00E0E32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C7FC9F1458929E00E0E32B /* main.m in Sources */,
+				89C7FCA31458929E00E0E32B /* AppDelegate.m in Sources */,
+				89C7FCA61458929E00E0E32B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89C7FC9B1458929E00E0E32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C7FC9C1458929E00E0E32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89C7FCA71458929E00E0E32B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C7FCA81458929E00E0E32B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89C7FCAA1458929E00E0E32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89C7FCAB1458929E00E0E32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C7FCAD1458929E00E0E32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockUIImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "BlockUIImageLoader/BlockUIImageLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89C7FCAE1458929E00E0E32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockUIImageLoader/BlockUIImageLoader-Prefix.pch";
+				INFOPLIST_FILE = "BlockUIImageLoader/BlockUIImageLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C7FC881458929E00E0E32B /* Build configuration list for PBXProject "BlockUIImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C7FCAA1458929E00E0E32B /* Debug */,
+				89C7FCAB1458929E00E0E32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C7FCAC1458929E00E0E32B /* Build configuration list for PBXNativeTarget "BlockUIImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C7FCAD1458929E00E0E32B /* Debug */,
+				89C7FCAE1458929E00E0E32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89C7FC851458929E00E0E32B /* Project object */;
+}
