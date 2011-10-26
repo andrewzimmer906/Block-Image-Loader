@@ -1,9 +1,9 @@
 //
 //  URLImageLoadOperation.m
-//  Tout
+//  Andrew Zimmer
 //
 //  Created by Andrew Zimmer on 9/30/11.
-//  Copyright (c) 2011 Toutapp. All rights reserved.
+//  Copyright (c) 2011 Andrew Zimmer. All rights reserved.
 //
 
 #import "URLImageLoadOperation.h"

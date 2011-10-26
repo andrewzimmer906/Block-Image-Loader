@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89C7FC8D1458929E00E0E32B"
-               BuildableName = "BlockUIImageLoader.app"
+               BuildableName = "BlockImageLoader.app"
                BlueprintName = "BlockImageLoader"
                ReferencedContainer = "container:BlockImageLoader.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C7FC8D1458929E00E0E32B"
-            BuildableName = "BlockUIImageLoader.app"
+            BuildableName = "BlockImageLoader.app"
             BlueprintName = "BlockImageLoader"
             ReferencedContainer = "container:BlockImageLoader.xcodeproj">
          </BuildableReference>
@@ -50,7 +50,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C7FC8D1458929E00E0E32B"
-            BuildableName = "BlockUIImageLoader.app"
+            BuildableName = "BlockImageLoader.app"
             BlueprintName = "BlockImageLoader"
             ReferencedContainer = "container:BlockImageLoader.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C7FC8D1458929E00E0E32B"
-            BuildableName = "BlockUIImageLoader.app"
+            BuildableName = "BlockImageLoader.app"
             BlueprintName = "BlockImageLoader"
             ReferencedContainer = "container:BlockImageLoader.xcodeproj">
          </BuildableReference>
