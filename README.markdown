@@ -17,7 +17,7 @@ I created these two classes recently to enable myself to easily and efficiently 
 First, download the code, and include it in your source.
 
 Import the class:  
-     #import "URLImageCached.h"
+    #import "URLImageCached.h"
      
 Now, start loading images:  
     -(void)loadImage {
