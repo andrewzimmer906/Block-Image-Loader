@@ -55,6 +55,10 @@
     }
 }
 
+-(void)clearCache {
+    [[self cache] removeAllObjects];
+}
+
 #pragma mark NSURLConnection Delegate Methods
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     [receivedData setLength:0];

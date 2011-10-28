@@ -48,9 +48,12 @@ typedef const struct __SCNetworkReachability * SCNetworkReachabilityRef;
     return connectivity;
 }
 
--(void)flushCache {
-    //TODO
++(void)flushCache {
+    URLImageLoadOperation *operation = [[URLImageLoadOperation alloc] init];
+    [operation clearCache];
+    [operation release];
 }
+
 @end
 
 @implementation URLImageCached(Private)

@@ -35,6 +35,6 @@
 /* When called flushes the image cache completly. This also happens automatically when the cache gets too
    full as set in URLImageCacheConstants.
  */
--(void)flushCache;
++(void)flushCache;
 
 @end

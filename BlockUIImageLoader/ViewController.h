@@ -19,5 +19,6 @@
 -(IBAction)loadImage1:(id)sender;
 -(IBAction)loadImage2:(id)sender;
 -(IBAction)loadImage3:(id)sender;
+-(IBAction)clearImageCache:(id)sender;
 
 @end

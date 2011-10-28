@@ -93,6 +93,10 @@
     }
 }
 
+-(IBAction)clearImageCache:(id)sender {
+    [URLImageCached flushCache];
+}
+
 @end
 
 @implementation ViewController(Private)

@@ -23,4 +23,6 @@
 /* Load that image! */
 -(void)loadImageWithURL:(NSString*)url withLoadProgressHandler:(URLImageLoadProgressHandler)progressHandler withLoadCompleteHandler:(URLImageLoadCompleteHandler)completeHandler;
 
+/* Clear the image cache */
+-(void)clearCache;
 @end
